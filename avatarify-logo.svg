@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="280" y1="120" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" rx="40" fill="url(#bg)"/>
+  <circle cx="880" cy="110" r="40" fill="#a5b4fc" opacity="0.9"/>
+  <circle cx="980" cy="560" r="28" fill="#67e8f9" opacity="0.85"/>
+
+  <g opacity="0.95">
+    <circle cx="600" cy="330" r="180" fill="url(#orb)"/>
+    <circle cx="600" cy="330" r="120" fill="#0f172a"/>
+    <path d="M520 330c18-48 50-72 80-72s62 24 80 72" stroke="#c7d2fe" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="560" cy="330" r="16" fill="#c7d2fe"/>
+    <circle cx="640" cy="330" r="16" fill="#c7d2fe"/>
+    <path d="M545 395c18 16 34 24 55 24s37-8 55-24" stroke="#c7d2fe" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <text x="95" y="600" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="2">
+    AVATARIFY
+  </text>
+  <text x="635" y="600" fill="#818cf8" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="2">
+    APP
+  </text>
+</svg>
